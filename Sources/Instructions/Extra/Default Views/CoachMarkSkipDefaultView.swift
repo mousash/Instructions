@@ -37,7 +37,7 @@ public class CoachMarkSkipDefaultView: UIButton, CoachMarkSkipView {
     public convenience init() {
         self.init(frame: CGRect.zero)
 
-        bodyBackground.backgroundColor = skipBackgroundColor
+        backgroundColor = .black
         setTitleColor(InstructionsColor.coachMarkLabel, for: .normal)
         titleLabel?.font = UIFont.systemFont(ofSize: 17.0)
         titleLabel?.textAlignment = .center
